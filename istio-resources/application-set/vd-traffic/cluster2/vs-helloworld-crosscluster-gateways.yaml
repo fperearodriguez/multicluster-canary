@@ -7,7 +7,7 @@ spec:
   gateways:
   - istio-system/ingressgateway
   hosts:
-  - '*'
+  - helloworld.global
   http:
   - match:
     - sourceLabels:
@@ -15,15 +15,15 @@ spec:
         istio: ingressgateway
       uri:
         prefix: /hello
-    name: helloworld
+    name: helloworld.global
     route:
     - destination:
-        host: helloworld
+        host: helloworld.global
         port:
           number: 5000
       weight: 100
     - destination:
-        host: helloworld-canary
+        host: helloworld-canary.global
         port:
           number: 5000
       weight: 0
