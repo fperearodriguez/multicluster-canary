@@ -18,13 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Istio Multi-Primary with ArgoCD, Argo Rollouts and Federated Thanos
+title: Orchestrating advanced Applications Deployments across multiple Kubernetes clusters with Istio, ArgoCD, and Argo Rollouts
 email: fperearodriguez@gmail.com
 description: >
-  This lab will setup an Istio Multi-Primary on different networks with ArgoCD and Argo Rollouts to deploy an example application.
+  This lab will setup an Istio Multi-Primary architecture on different networks with ArgoCD and Argo Rollouts to upgrade and test application in multiple clusters at the same time, with the same source of trust.
 domain: fperearodriguez.github.io 
 url: https://fperearodriguez.github.io
-github_username:  fperearodriguez
+github_username:
+- fperearodriguez
+- edubonifs
+author:
+- fperearodriguez
+- edubonifs
 
 # Build settings
 remote_theme: pages-themes/midnight@v0.2.0
