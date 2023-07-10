@@ -71,3 +71,13 @@ kubectl --context="${CTX_CLUSTERHUB}" apply -n argocd -f argocd-resources/app-of
 By accessing the ArgoCD application created, the resources creation will be shown as follows:
 
 <img src="./assets/images/argocd-app-of-apps.png">
+
+## Upgrade the Application with Argo Rollouts
+
+For upgrading our application, we will deploy a new ApplicationSet which consists of two Rollouts.
+
+For applying it, execute the following command:
+
+```bash
+kubectl --context="${CTX_CLUSTERHUB}" apply -n argocd -f argocd-resources/rollout/appset-rollouts.yaml
+```

@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: helloworld-app-of-apps
+  name: rollouts-app-of-apps
   namespace: argocd
 spec:
   destination:
@@ -9,7 +9,7 @@ spec:
     namespace: 'argocd'
     server: 'https://kubernetes.default.svc'
   source:
-    path: argocd-resources/argocd-applications
+    path: argocd-resources/rollouts/
     repoURL: https://github.com/fperearodriguez/multicluster-canary.git
     targetRevision: 'kvm-k8s'
   project: default
