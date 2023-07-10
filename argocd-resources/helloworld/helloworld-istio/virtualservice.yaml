@@ -13,7 +13,7 @@ spec:
   gateways:
   - istio-system/ingressgateway
   http:
-  - name: helloworld-stable
+  - name: helloworld
     match:
     - uri:
         prefix: /hello
