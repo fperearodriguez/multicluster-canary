@@ -321,4 +321,4 @@ Everything Open Source!
 
 [Edu Bonilla](https://www.linkedin.com/in/eduardo-bonilla-rodriguez-8868b8181/)                |  [Fran Perea](https://www.linkedin.com/in/francisco-perea-rodr%C3%ADguez-a3ba74105/)
 :-------------------------:|:-------------------------:
-<img src="./assets/images/EduPhoto.png"> | <img src="./assets/images/FranPhoto.jpg" width="155" height="210">
+<img src="./assets/images/EduPhoto.png"> | <img src="./assets/images/FranPhoto.jpeg">
