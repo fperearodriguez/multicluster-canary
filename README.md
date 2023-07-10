@@ -1,4 +1,4 @@
-# Multicluster-Canary using Istio, ArgoCD, Rollouts and Federated Thanos
+# Orchestrating advanced Applications Deployments across multiple Kubernetes clusters with Istio, ArgoCD, and Argo Rollouts
 
 :mag: The _main_ branch of this repository uses AWS as Cloud Provider. Switch to _k8s-kvm_ branch to deploy the same lab in KVM
 
@@ -613,11 +613,8 @@ So we have managed to upgrade our Application in real time at the same time with
 
 Everything Open Source!
 
+<h2 align="center">Contributors</h2>
 
-
-
-
-
-
-
-
+[Edu Bonilla](https://www.linkedin.com/in/eduardo-bonilla-rodriguez-8868b8181/)                |  [Fran Perea](https://www.linkedin.com/in/francisco-perea-rodr%C3%ADguez-a3ba74105/)
+:-------------------------:|:-------------------------:
+![](images/EduPhoto.png)  |  ![](images/FranPhoto.png)
