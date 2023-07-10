@@ -41,7 +41,7 @@ spec:
       trafficRouting:
         istio:
           virtualService:
-            name: helloworld-crosscluster-gateways
+            name: helloworld
             routes:
             - helloworld
       steps:

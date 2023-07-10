@@ -65,7 +65,7 @@ Follow the [Monitoring README](./README-monitoring.md) to configure the monitori
 The sample application and the Istio resources are deployed via ArgoCD. The _app of apps_ pattern is used to deploy them:
 
 ```bash
-kubectl --context="${CTX_CLUSTERHUB}" apply -n argocd -f argocd-resources/app-of-apps.yaml
+kubectl --context="${CTX_CLUSTERHUB}" apply -n argocd -f argocd-resources/helloworld-app-of-apps.yaml
 ```
 
 By accessing the ArgoCD application created, the resources creation will be shown as follows:
@@ -79,5 +79,5 @@ For upgrading our application, we will deploy a new ApplicationSet which consist
 For applying it, execute the following command:
 
 ```bash
-kubectl --context="${CTX_CLUSTERHUB}" apply -n argocd -f argocd-resources/rollout/appset-rollouts.yaml
+kubectl --context="${CTX_CLUSTERHUB}" apply -n argocd -f argocd-resources/rollouts-app-of-apps.yaml
 ```
