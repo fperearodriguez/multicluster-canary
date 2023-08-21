@@ -15,7 +15,7 @@ spec:
     failureLimit: 3
     provider:
       prometheus:
-        address: http://a4c66330e34cc41cdb7cadf2f7ede153-1169737763.us-east-1.elb.amazonaws.com:9090
+        address: http://192.168.100.153:9090
         query: >+
           sum(irate(istio_requests_total{
             reporter="source",
