@@ -15,7 +15,7 @@ spec:
           repoURL: https://github.com/fperearodriguez/multicluster-canary.git
           revision: kvm-k8s
           directories:
-          - path: argocd-resources/helloworld/*
+          - path: argocd-resources/rollouts/helloworld/*
   template:
     metadata:
       name: '{{path.basenameNormalized}}-{{name}}'
@@ -24,7 +24,7 @@ spec:
       source:
         repoURL: https://github.com/fperearodriguez/multicluster-canary.git
         targetRevision: kvm-k8s
-        path: argocd-resources/helloworld/{{path.basenameNormalized}}
+        path: argocd-resources/rollouts/helloworld/{{path.basenameNormalized}}
       destination:
         namespace: helloworld
         server: '{{server}}'
