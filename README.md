@@ -72,7 +72,7 @@ kubectl --context="${CTX_CLUSTERHUB}" apply -n argocd -f argocd-resources/hellow
 
 By accessing the ArgoCD application created, the resources creation will be shown as follows:
 
-<img src="./assets/images/argocd-app-of-apps.png">
+<img src="docs/assets/images/argocd-app-of-apps.png">
 
 ## Upgrade the Application with Argo Rollouts
 
